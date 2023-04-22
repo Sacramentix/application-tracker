@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import type { Application, JobStatus } from './components/type';
 import ApplicationCard from "./components/Application-card.vue";
-import { useStorage } from '@vueuse/core';
 import { computed } from 'vue';
 import { v4 as uuidv4 } from 'uuid';
 import { config } from "./composables/config";
 import Config from './components/Config.vue';
 import { applications } from './composables/applications';
-import SankeyChart from './composables/sankeyChart.vue';
+import SankeyChart from './components/SankeyChart.vue';
 
 const computedFilterByStatus = (status:JobStatus) =>  computed(()=> applications.value.filter(a=>a.status==status));
 const needToApplyApplications = computedFilterByStatus("need to apply");

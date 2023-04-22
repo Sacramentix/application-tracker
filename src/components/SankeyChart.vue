@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { Chart } from 'chart.js';
 import { onMounted, ref, watch } from 'vue';
-import { applications } from './applications';
-import { Application } from '../components/type';
-import { config } from './config';
+import { applications } from '../composables/applications';
+import { config } from '../composables/config';
 
 const canvas = ref<HTMLCanvasElement>();
 let previousChart:Chart;
