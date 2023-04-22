@@ -1,0 +1,11 @@
+button {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+    &:is(:hover, :focus, :focus-visible) {
+        filter: brightness(1.1);
+    }
+}
