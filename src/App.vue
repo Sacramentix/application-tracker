@@ -194,7 +194,7 @@ main {
 }
 [accepted] {
   --column-background: #C69749;
-  --column-color: #ddd;
+  --column-color: #000;
 }
 
 [tracker-columns] {

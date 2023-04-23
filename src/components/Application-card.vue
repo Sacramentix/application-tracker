@@ -40,7 +40,6 @@ watch(data, (v,old) => {
 const card = ref<HTMLDetailsElement>();
 
 onMounted(()=>{
-  console.log(card.value);
   card.value?.querySelectorAll("textarea").forEach(t=>t.setAttribute("style", "height:" + (t.scrollHeight - 8) + "px;"));
 })
 
