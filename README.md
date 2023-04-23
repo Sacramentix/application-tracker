@@ -1,12 +1,25 @@
-# Vue 3 + TypeScript + Vite
+# Job application tracker
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 🏔️ What is the projet about ?
 
-## Recommended IDE Setup
+This is a web app where you a can enter all your job application keep track of them and have a beautifull Sankey graph of it!
+
+The website look like this :
+
+![image](https://user-images.githubusercontent.com/35272156/233845178-fe2d089f-a92b-4b7e-8c68-66bc821218e7.png)
+
+And it generate a sankey chart that you can share :
+
+![image](https://user-images.githubusercontent.com/35272156/233845217-350689c5-8916-4c91-87b3-c28682c71705.png)
+
+
+## Want to contribute ?
+
+### Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Type Support For `.vue` Imports in TS
+### Type Support For `.vue` Imports in TS
 
 TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
@@ -16,3 +29,27 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
    2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+
+### 🏗️ How to setup the project
+
+#### Clone the project
+- First clone the project on your local computer
+```
+git clone https://github.com/Sacramentix/application-tracker.git
+cd application-tracker
+```
+
+#### Node js
+- Make sure you have v18 or higher. You can install it from the official website [here](https://nodejs.org).
+- You can also install NVM to manage multiple version of Node js [here](https://github.com/nvm-sh/nvm).
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command           | Action                                       |
+|:----------------  |:-------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
