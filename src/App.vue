@@ -209,7 +209,7 @@ main {
   > div {
     border: solid 1px #fff5;
     border-radius: 15px;
-    // padding: 3px;
+    padding-bottom: 20ch;
     overflow: hidden;
     flex: 1 0 40ch;
     min-height: 100%;
