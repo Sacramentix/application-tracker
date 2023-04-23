@@ -1,5 +1,13 @@
 # Job application tracker
 
+## 🚀 Tech stack
+
+<p align="center">
+   <a href="https://vitejs.dev" title="Vite"><img width=32 height=32 src="https://vitejs.dev/logo.svg" alt="Vite logo"></a>
+	<a href="https://www.typescriptlang.org" title="Typescript"><img width=32 height=32 src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="Typescript logo"></a>
+   <a href="https://vuejs.org" title="Vue"><img width=32 height=28 src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg" alt="Vue logo"></a>
+</p>
+
 ## 🏔️ What is the projet about ?
 
 This is a web app where you a can enter all your job application keep track of them and have a beautifull Sankey graph of it!
